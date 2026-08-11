@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./ascii.svg" width="460" alt="Erfanul Hakim Farhan"/>
+
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
 [portfolio](https://github.com/erfanulfarhan/portfolio) &nbsp;·&nbsp;
@@ -58,18 +60,20 @@ moment a result document appears.
 <img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
 Every graphic here is generated in this repository, not embedded from someone<br>
-else's server, so nothing on the page can rate-limit or go dark. The stat<br>
-graphics and the section headings are drawn by<br>
-[a scheduled action](.github/workflows/stats.yml) from the GitHub GraphQL API<br>
-once a day, committing only what changed.
+else's server, so nothing on the page can rate-limit or go dark. `ascii.svg` is<br>
+a photo pushed through a character ramp by<br>
+[`scripts/make_portrait.py`](scripts/make_portrait.py). The stat graphics and<br>
+the section headings are drawn by [a scheduled action](.github/workflows/stats.yml)<br>
+from the GitHub GraphQL API once a day, committing only what changed.
 
 They animate with SMIL inside the SVG, because GitHub strips scripts from<br>
 READMEs. The headings are images for the same reason: GitHub strips CSS too, so<br>
 an image is the only way to put this page's own typeface on a heading.
 
 The typeface is [JetBrains Mono](scripts/fonts), subset to just the characters<br>
-each graphic uses and inlined as base64, because GitHub will not load a font<br>
-from a URL inside an image.
+each graphic uses and inlined as base64. That is not only for looks: the<br>
+portrait's grid assumes an advance width of exactly 0.600 em, and a viewer whose<br>
+default monospace is narrower would see it squeezed.
 
 Language totals cover public repositories only. `year.svg` draws one character<br>
 per day on a four step ramp: `:` `+` `#` `@`, quiet to loud.

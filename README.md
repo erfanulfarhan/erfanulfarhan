@@ -27,6 +27,11 @@ everything else.
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
+**[exam-toolkit](https://github.com/erfanulfarhan/exam-toolkit)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
+Revision tools for Edexcel International A Level and IGCSE. UMS grade calculator<br>
+built off the published boundaries, past papers beside mark schemes that stay<br>
+locked until you attempt the question, mock timer and study planner.
+
 **[sitesage](https://github.com/erfanulfarhan/sitesage)** &nbsp;·&nbsp; <samp>javascript, groq</samp><br>
 Embeddable AI chat widget for any site. Create a bot, train it on text or URLs,<br>
 drop in one script tag. Multi-tenant, so one deployment serves every customer.

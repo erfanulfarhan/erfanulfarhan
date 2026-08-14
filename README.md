@@ -7,6 +7,7 @@
 [portfolio](https://github.com/erfanulfarhan/portfolio) &nbsp;·&nbsp;
 [sitesage](https://sitesage-erfanul.vercel.app) &nbsp;·&nbsp;
 [ask my docs](https://ask-my-docs-erfanul.vercel.app) &nbsp;·&nbsp;
+[store-it](https://store-it-psi-three.vercel.app) &nbsp;·&nbsp;
 [email](mailto:ershadul@datacenters.com)
 
 </div>
@@ -23,9 +24,14 @@ everything else.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; node &nbsp; playwright &nbsp; fastapi &nbsp; supabase &nbsp; postgres &nbsp; vercel &nbsp; git</samp>
+<samp>python &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; next &nbsp; node &nbsp; playwright &nbsp; fastapi &nbsp; supabase &nbsp; appwrite &nbsp; postgres &nbsp; vercel &nbsp; git</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
+
+**[store-it](https://github.com/erfanulfarhan/store-it)** &nbsp;·&nbsp; <samp>typescript, next, appwrite</samp><br>
+File storage with passwordless email sign-in. Drag and drop upload, browse by<br>
+type, share by email, search and sort. Download links are minted per request and<br>
+expire, so a shared URL stops working instead of living forever.
 
 **[exam-toolkit](https://github.com/erfanulfarhan/exam-toolkit)** &nbsp;·&nbsp; <samp>typescript, react</samp><br>
 Revision tools for Edexcel International A Level and IGCSE. UMS grade calculator<br>

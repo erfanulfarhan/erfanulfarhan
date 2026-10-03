@@ -8,7 +8,7 @@
 
 Most of what I make started as a problem I hit myself: a ticket that sells out before I can click, a results PDF nobody wants to read, notes I need answers from at 2am. I put AI where it earns its place and write plain code for everything else.
 
-📍 Dhaka, Bangladesh &nbsp;·&nbsp; [Portfolio](https://erfanulfarhan.vercel.app) &nbsp;·&nbsp; [Email](mailto:ershadul@datacenters.com)
+📍 Dhaka, Bangladesh &nbsp;·&nbsp; [Portfolio](https://erfanulfarhan.vercel.app)
 
 ## `$ ls ~/projects`
 

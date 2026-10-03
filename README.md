@@ -1,4 +1,8 @@
-## Erfanul Hakim Farhan
+<div align="center">
+
+<img src="./whoami.svg" width="860" alt="A terminal window. The command whoami prints an ASCII portrait of Erfanul Hakim Farhan beside a card: AI and automation developer in Dhaka, Bangladesh, working in JavaScript, TypeScript, Python and Swift, with React, Next.js, Electron and FastAPI, and Anthropic, Gemini, Groq and Ollama for AI."/>
+
+</div>
 
 **AI and automation developer.** I build small tools that do one job, ship them, and keep them running.
 
@@ -6,9 +10,7 @@ Most of what I make started as a problem I hit myself: a ticket that sells out b
 
 📍 Dhaka, Bangladesh &nbsp;·&nbsp; [Portfolio](https://erfanulfarhan.vercel.app) &nbsp;·&nbsp; [Email](mailto:ershadul@datacenters.com)
 
----
-
-## Featured
+## `$ ls ~/projects`
 
 ### [Lens](https://github.com/erfanulfarhan/lens) &nbsp;<sup>`electron` `typescript` `swift` `local llm`</sup>
 
@@ -55,9 +57,7 @@ Calibrates and verifies gaze correction on macOS, proving whether it actually wo
 
 </details>
 
----
-
-## Stack
+## `$ cat ~/stack.txt`
 
 **Languages** &nbsp; Python &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; Swift &nbsp;·&nbsp; SQL
 
@@ -67,18 +67,16 @@ Calibrates and verifies gaze correction on macOS, proving whether it actually wo
 
 **Data and infra** &nbsp; Postgres &nbsp;·&nbsp; Supabase &nbsp;·&nbsp; Appwrite &nbsp;·&nbsp; Vercel &nbsp;·&nbsp; Playwright &nbsp;·&nbsp; GitHub Actions
 
----
-
-## Activity
+## `$ ./activity.sh`
 
 <div align="center">
 
-<img src="./stats.svg" width="620" alt="Contributions over the last year"/>
+<img src="./contributions.svg" width="860" alt="A terminal window. The command ./contributions.sh draws the last year's contribution calendar cell by cell, with the year's totals, best day and streaks underneath, redrawn every day."/>
+
+<br><br>
 
 <img src="./langs.svg" width="620" alt="Top languages by bytes and by repository"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
-
 </div>
 
-<sub>Every graphic above is generated in this repository rather than embedded from someone else's server, so nothing here can rate-limit or go dark. <a href=".github/workflows/stats.yml">A scheduled action</a> redraws them daily from the GitHub GraphQL API, committing only what changed. They animate with SMIL inside the SVG, because GitHub strips scripts from READMEs. The typeface is <a href="scripts/fonts">JetBrains Mono</a>, subset to the characters each graphic uses and inlined, so the page never depends on a font the viewer may not have.</sub>
+<sub>Every graphic on this page is drawn in this repository rather than embedded from someone else's server, so nothing here can rate-limit or go dark. <a href=".github/workflows/stats.yml">A scheduled action</a> redraws them daily from the GitHub GraphQL API, committing only what changed. The terminal windows animate with CSS inside the SVG, because GitHub strips scripts from READMEs, and skip straight to the finished frame for anyone whose system asks for reduced motion. The portrait was <a href="scripts/make_portrait.py">drawn once from a photo</a>; the typeface is <a href="scripts/fonts">JetBrains Mono</a>, subset and inlined, so its character grid holds on every screen. The terminal idea comes from <a href="https://www.avivashishta.com/blog/build-animated-github-profile-readme">Avi Vashishta's guide</a>.</sub>

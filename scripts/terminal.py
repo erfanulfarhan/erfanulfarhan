@@ -147,8 +147,8 @@ def age(created, today):
 
 # ------------------------------------------------------------------ whoami
 
-PORTRAIT_W = 334           # px for the 80-column portrait
-PRINT_PER_CHAR = 0.0018    # seconds; the whole bust prints in about two and a half
+PORTRAIT_W = 334           # px; the font size follows from the portrait's column count
+PRINT_PER_CHAR = 0.0015    # seconds; the whole bust prints in about three
 INFO_FS = 13.5
 INFO_LH = 21.5
 GAP = 30
@@ -178,6 +178,7 @@ def draw_whoami(s, portrait, fonts, today):
             ("Site", "erfanulfarhan.vercel.app")]
     info_h = (2 + len(rows) + 1 + 2) * INFO_LH
     body = max(ph, info_h)
+    ptop = top + (body - ph) / 2               # the shorter of the two sits centred beside the other
     end_y = top + body + 30
     H = int(end_y + 24 + M)
 
@@ -191,7 +192,7 @@ def draw_whoami(s, portrait, fonts, today):
     t_row0 = typed + 0.20
     t = t_row0
     for i, row in enumerate(portrait):
-        y = top + i * plh
+        y = ptop + i * plh
         p.append(f'<text x="{px}" y="{y + plh * 0.8:.1f}" font-size="{pfs:.2f}" fill="{INK}" '
                  f'xml:space="preserve">{esc(row)}</text>')
     for i, row in enumerate(portrait):
@@ -199,7 +200,7 @@ def draw_whoami(s, portrait, fonts, today):
             continue
         first = len(row) - len(row.lstrip())
         x0, wr = px + first * pcw - 0.5, (len(row) - first) * pcw + 1
-        y = top + i * plh
+        y = ptop + i * plh
         dur = max(0.03, (len(row) - first) * PRINT_PER_CHAR)
         p.append(f'<rect class="cv ty" x="{x0:.1f}" y="{y:.1f}" width="{wr:.1f}" height="{plh + .4:.1f}" '
                  f'fill="{BG}" style="animation:type {dur:.3f}s linear {t:.3f}s forwards"/>')
@@ -211,7 +212,7 @@ def draw_whoami(s, portrait, fonts, today):
 
     # the card, a line at a time
     ix = px + PORTRAIT_W + GAP
-    iy = top + INFO_FS
+    iy = top + (body - info_h) / 2 + INFO_FS
     t_line0, line_gap = t_row0 + 0.15, 0.11
     head = "erfanulfarhan@github"
     lines = [f'<tspan fill="{USER}" font-weight="600">erfanulfarhan</tspan><tspan fill="{INK}">@</tspan>'

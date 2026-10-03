@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./whoami.svg" width="860" alt="A terminal window. The command whoami prints an ASCII portrait of Erfanul Hakim Farhan beside a card: AI and automation developer in Dhaka, Bangladesh, working in JavaScript, TypeScript, Python and Swift, with React, Next.js, Electron and FastAPI, and Anthropic, Gemini, Groq and Ollama for AI."/>
+<img src="./whoami.svg" width="860" alt="A terminal window. The command whoami prints an ASCII portrait of Erfanul Hakim Farhan, arms crossed and in sunglasses, beside a card: AI and automation developer in Dhaka, Bangladesh, working in JavaScript, TypeScript, Python and Swift, with React, Next.js, Electron and FastAPI, and Anthropic, Gemini, Groq and Ollama for AI."/>
 
 </div>
 

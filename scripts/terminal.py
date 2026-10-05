@@ -175,7 +175,7 @@ def draw_whoami(s, portrait, fonts, today):
             ("AI", "Anthropic · Gemini · Groq · Ollama"),
             ("Shipped", "Lens · exam-toolkit · sitesage"),
             ("Activity", f"{s['total']} contributions this year"),
-            ("Site", "erfanulfarhan.vercel.app")]
+            ("Site", "erfanul.me")]
     info_h = (2 + len(rows) + 1 + 2) * INFO_LH
     body = max(ph, info_h)
     ptop = top + (body - ph) / 2               # the shorter of the two sits centred beside the other
